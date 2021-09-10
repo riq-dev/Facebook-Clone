@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+#facebook {
+    position: relative;
+    margin-top: 176px;
+    margin-left: 184px;
+    display: inline-block;
+}
+
+#facebook img {
+    width: 301px;
+    height: 106px;
+    margin-left: -28px;
+}
+
+#facebook h3 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: -10px;
+}
+
+hr {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#form {
+    position: relative;
+    top: 122px;
+    left: 78px;
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgb(190, 190, 190);
+    text-align: center;
+}
+
+.form-input input {
+    width: 90%;
+    height: 60px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.form-input input[type="email"] {
+    border: 0.5px solid rgb(221, 221, 221);
+}
+
+.form-input input[type="password"] {
+    border: 0.5px solid rgb(221, 221, 221);
+}
+
+.form-input input[type="submit"] {
+    background-color: #1670e7;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.form2 {
+    margin-top: 20px;
+}
+
+.form-input a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.form-input input[type="button"] {
+    background-color: #3bac24;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+    font-size: 17px;
+}
+
+#opcao {
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    left: 780px;
+    margin-top: 145px;
+}
+
+#opcao a,
+p {
+    display: inline-block;
+    color: black;
+}
+
+#opcao a strong {
+    display: inline-block;
+}
+
+footer {
+    margin-top: 500px;
+    background-color: #0f0f0f;
+    padding: 100px;
+}
